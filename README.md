@@ -10,3 +10,21 @@ pip install hub-city
 ```
 
 For others installation instructions, not supported.
+
+## Documentation
+
+You can find the documentation for hub-city on [ReadTheDocs](). This includes API documentation, contributing instructions, and several [tutorials](). For more details, check out our [paper](), [podcast episode](), [tutorial](https://www.youtube.com/watch), and [blog post](https://).
+
+<p float="left">
+  
+</p>
+
+## Example Usage
+
+The following sections give basic examples of what you can do with hub-city.
+
+First we'll import various classes and functions used in the following sections:
+
+```python
+
+```
