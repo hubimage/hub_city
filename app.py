@@ -29,6 +29,7 @@ class BaseVar(object):
     real_area = 30  # 真实面积 单位: 平方千米
     longitude = 118.666098  # 精度
     latitude = 37.40491  # 维度
+    object_name = "soil"
 
 
 def console(log_text):
@@ -122,7 +123,7 @@ class stream_inference(object):
                                               min_area=self.image_threshold,
                                               draw_color_fill=(0, 0, 255),  # red
                                               video_id=self.video_frame_id,
-                                              name="soil"
+                                              name=config_var.object_name
                                               )
 
         # self.video_frame_id += 1
