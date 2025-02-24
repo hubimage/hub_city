@@ -61,7 +61,7 @@ def upload(url=None, fields=None):
 
 
 class stream_inference(object):
-    def __init__(self, _show_=False, _text_=True, _stream_=False, _save_=False):
+    def __init__(self, _show_=False, _text_=True, _stream_=False, _save_=False, _post_ = False):
         self.dst_size = config_var.save_image_size
         self.video_path = config_var.video_path
         self.image_threshold = config_var.image_threshold
@@ -72,6 +72,7 @@ class stream_inference(object):
         self._text_ = _text_
         self._stream_ = _stream_
         self._save_ = _save_
+        self._post_ = _post_
         # self.video_run()
 
     def video_init(self):
@@ -120,7 +121,8 @@ class stream_inference(object):
                                               dst_size=self.dst_size,
                                               min_area=self.image_threshold,
                                               draw_color_fill=(0, 0, 255),  # red
-                                              video_id=self.video_frame_id
+                                              video_id=self.video_frame_id,
+                                              name="soil"
                                               )
 
         # self.video_frame_id += 1
@@ -128,8 +130,8 @@ class stream_inference(object):
         real_area = 30
         font_color = (255, 255, 255)
         result, result_area = image_draw(real_area, area, dst, self.dst_size, fill=font_color)
-
-        self.post_filters(result_area, real_area, video_id, result)
+        if self._post_:
+            self.post_filters(result_area, real_area, video_id, result)
 
         if self._show_:
             show("image", result, 1)

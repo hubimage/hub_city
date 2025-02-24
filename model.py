@@ -61,11 +61,13 @@ def model_load(src,
                dst_size,
                min_area,
                draw_color_fill,
-               video_id):
+               video_id,
+               name=''):
     coe = Coe()
     paras = compute_coefs(coe, 3)
     # trans = 0
-    hub_city.load_model("./model.obj")
+    # hub_city.load_model("./model.obj")
+    hub_city.load_model("./hub_city-20250221.obj", name=name)
     src, dst, area, video_id = hub_city.inference(src=src,
                                                   dst_size=dst_size,
                                                   min_area=min_area,
