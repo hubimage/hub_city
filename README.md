@@ -29,10 +29,9 @@ First we'll import various classes and functions used in the following sections:
 
 ```
 ## Update records
-
-[release-0.2](https://github.com/hubimage/hub_city/releases/tag/release-0.2)  
-
-  Fix the problem for post data fail. 
+<!--
+[release-0.2]
+Fix the problem for post data fail. 
 
 [release-0.3](https://github.com/hubimage/hub_city/releases/tag/release-0.3)  
 
@@ -43,5 +42,11 @@ First proposed the MOP ((Mixture of Parameter, 混合参数模型))architecture,
 1. change the config var
    
 2. add name in config var
-   
+-->
+
+|Version|explain|
+|:-:|:-:|
+[Release-0.2](https://github.com/hubimage/hub_city/releases/tag/release-0.2)| Fix the problem for post data fail.
+[Release-0.3](https://github.com/hubimage/hub_city/releases/tag/release-0.3)| First proposed the MOP ((Mixture of Parameter, 混合参数模型))architecture
+[Release-0.4](https://github.com/hubimage/hub_city/releases/tag/release-0.4)| Change the config var and ADD name
 
