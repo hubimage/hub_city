@@ -49,4 +49,5 @@ First proposed the MOP ((Mixture of Parameter, 混合参数模型))architecture,
 [Release-0.2](https://github.com/hubimage/hub_city/releases/tag/release-0.2)| Fix the problem for post data fail.
 [Release-0.3](https://github.com/hubimage/hub_city/releases/tag/release-0.3)| First proposed the MOP ((Mixture of Parameter, 混合参数模型))architecture
 [Release-0.4](https://github.com/hubimage/hub_city/releases/tag/release-0.4)| Change the config var and ADD name
+[Release-0.0.5](https://github.com/hubimage/hub_city/releases/tag/release-0.0.4)|Increasing neural network inference but not supporting inference from multiple images
 
