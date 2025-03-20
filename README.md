@@ -50,4 +50,4 @@ First proposed the MOP ((Mixture of Parameter, 混合参数模型))architecture,
 [Release-0.3](https://github.com/hubimage/hub_city/releases/tag/release-0.3)| First proposed the MOP ((Mixture of Parameter, 混合参数模型))architecture
 [Release-0.4](https://github.com/hubimage/hub_city/releases/tag/release-0.4)| Change the config var and ADD name
 [Release-0.0.5](https://github.com/hubimage/hub_city/releases/tag/release-0.0.5)|Increasing neural network inference but not supporting inference from multiple images
-[Release-0.0.6](https://github.com/hubimage/hub_city/releases/tag/release-0.0.6)|2025-03-20 add remote sensing image recognition of village clusters
+[Release-0.0.6](https://github.com/hubimage/hub_city/releases/tag/Release-0.0.6)|2025-03-20 add remote sensing image recognition of village clusters
