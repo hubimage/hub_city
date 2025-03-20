@@ -1,5 +1,5 @@
 import os
-from model import model_load, ModelParas, show
+from model import model_load, ModelParas, show,remote_sensing_model_load
 from imagePro import get_image, image_draw, save_image, create_dir
 from video import video_init, video_set
 from logg import log_warn, log_fatal, log_error
@@ -77,6 +77,11 @@ class stream_inference(object):
         self._save_ = _save_
         self._post_ = _post_
         # self.video_run()
+
+    def remote_sensing_rec(self):
+        # todo 2025年3月20日加 遥感图像识别算法
+        result = remote_sensing_model_load()
+        print(result)
 
     def video_init(self):
         camera, write, state = video_init(self.video_path, name="temp", size=self.dst_size)
@@ -184,7 +189,8 @@ class stream_inference(object):
 
 def main():
     rtsp_stream = stream_inference(_show_=False,)
-    rtsp_stream.video_init()
+    # rtsp_stream.video_init()
+    rtsp_stream.remote_sensing_rec()
 
 
 if __name__ == "__main__":
