@@ -37,6 +37,7 @@ Running on all addresses (0.0.0.0)
 Running on http://127.0.0.1:8089
 Running on http://192.168.31.233:8089
 # step 4: http://127.0.0.1:8089/hubcity/rest/services/village/AiServer
+{"consume_time": "423.12 ms", "image_w": 2560, "image_h": 1440, "coord": [{"left": 570, "top": 1189, "width": 269, "height": 141}, {"left": 1912, "top": 807, "width": 198, "height": 119}, {"left": 1865, "top": 590, "width": 228, "height": 70}, {"left": 1857, "top": 416, "width": 185, "height": 122}, {"left": 330, "top": 1275, "width": 188, "height": 59}, {"left": 193, "top": 1100, "width": 194, "height": 115}, {"left": 1284, "top": 1145, "width": 143, "height": 77}, {"left": 2308, "top": 914, "width": 126, "height": 78}, {"left": 1460, "top": 1057, "width": 188, "height": 109}, {"left": 1138, "top": 975, "width": 162, "height": 75}, {"left": 1860, "top": 968, "width": 140, "height": 82}, {"left": 61, "top": 907, "width": 320, "height": 153}, {"left": 1703, "top": 815, "width": 136, "height": 69}, {"left": 1587, "top": 491, "width": 240, "height": 134}, {"left": 1873, "top": 1162, "width": 148, "height": 77}, {"left": 2182, "top": 1080, "width": 250, "height": 210}, {"left": 1610, "top": 1228, "width": 235, "height": 78}, {"left": 1847, "top": 1257, "width": 102, "height": 53}, {"left": 2017, "top": 717, "width": 95, "height": 58}, {"left": 33, "top": 787, "width": 161, "height": 83}, {"left": 1694, "top": 631, "width": 123, "height": 70}, {"left": 1777, "top": 745, "width": 123, "height": 61}], "type": "village"}
 ```
 ## Update records
 <!--
