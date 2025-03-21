@@ -26,7 +26,16 @@ The following sections give basic examples of what you can do with hub-city.
 First we'll import various classes and functions used in the following sections:
 
 ```python
-
+# usage Version 0.0.7
+# step 1： how to install package
+#   pip install hub_city==0.0.7
+# step two： how to create the services
+from hub_city.app import web
+web.hub_services()
+Now, You can send a post image request on port 8089
+Running on all addresses (0.0.0.0)
+Running on http://127.0.0.1:8089
+Running on http://192.168.31.233:8089
 ```
 ## Update records
 <!--
